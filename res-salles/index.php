@@ -1,4 +1,5 @@
 <!DOCTYPE HTML>
+<?php ini_set('display_errors', true); ?>
 <html>
 <!-- BOOTSRAP -->
 <script src="js/jquery-3.1.1.js"></script>
@@ -59,7 +60,7 @@ $res = $bdd->query('SELECT * FROM booking');?>
             	<?php
             }
 
-            $reponse->closeCursor();
+            $res->closeCursor();
 
             ?>
 
