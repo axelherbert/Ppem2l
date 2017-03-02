@@ -1,4 +1,3 @@
-<?phpini_set('display_errors', true); ?>
 <!DOCTYPE html>
 <html>
 <head>
