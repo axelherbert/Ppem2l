@@ -21,7 +21,8 @@
                 <ul class="nav navbar-nav">
                   <li class="active"><a href="">Home</a></li>
     							<li><a href="./rencontre.php">Rencontre</a></li>
-                  <li><a href="./livredor.php">Livre D'or</a></li>
+                  <li><a href="./contact.php">Contact</a></li>
+                  <li><a href="res-salles/index.php">Réservation salles</a></li>
                   </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
