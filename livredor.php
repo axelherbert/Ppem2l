@@ -23,7 +23,7 @@
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-              <li><a href="./index.php">Home</a></li>
+              <li><a href="./index.php">acceuil</a></li>
 							<li><a href="./rencontre.php">Rencontre</a></li>
               <li class="active"><a href="./livredor.php">Livre D'or</a></li>
               </li>
