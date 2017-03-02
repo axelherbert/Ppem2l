@@ -18,38 +18,12 @@
 </head>
 <body>
 
- <div class="container">
+<?php include "navbar.php"; ?>
 
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="Site.php">M2L</a>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li><a href="Les ligues.php">Les ligues</a></li>
-              <li><a href="Emploi.php">Emploi</a></li>
-              <li><a href="http://rencontre.michaelelbaz.com/">Rencontre</a></li>
-                </ul>
-              </li>
-              <ul class="nav navbar-nav-nav navbar-right">
-               <li><a href="Admin.php">Se connecter</a></li>
-               <li><a href="">Contact</a></li>
-            </ul>
-      </nav>
-      </div>
-      
         <article class="left">
       <form  method="post" action="formpost.php">
 <div style="padding: 5px;
- position:fixed; 
+ position:fixed;
  border: 2px solid black;
  right:350px;
  left: 10px;
@@ -57,19 +31,19 @@
   <img class="snowright" src="ski.jpg">
 <h3>Contact</h3></br>
   <p align="left">Nom</br>
-  <input type="text" name="auteur" /> 
-  
+  <input type="text" name="auteur" />
+
     <p align="left">Prénom</br>
   <input type="text" name="auteur" />
     <p align="left">E-mail</br>
-  <input type="text" name="auteur" />  
+  <input type="text" name="auteur" />
   </br><p align="left">Votre message</br>
   <textarea name="message" rows="6" cols="123"></textarea></br>
   <button type="submit" class="btn btn-success">Envoyer</button>
 </div>
 </article>
 <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d363.14031846754244!2d6.214235122605976!3d48.697632205357934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x4794983386479251%3A0xc58bc09976474b86!2s13+Rue+Jean+Moulin%2C+54510+Tomblaine!3m2!1d48.6977444!2d6.2141532!5e0!3m2!1sfr!2sfr!4v1487927361929" width="800" height="450" frameborder="0" style="padding: 5px;
- position:fixed; 
+ position:fixed;
  border: 2px solid black;
  right:350px;
  left: 10px;
@@ -129,7 +103,7 @@
             Tél. : 03 83 18 87 07<br />
             Fax : 03 83 18 87 03<br />
             Email : <a href="mailto:jeannine.vuillemard@m2l.fr">jeannine.vuillemard@m2l.fr</a>
-          
+
          </p>
 </div>
 </section>
