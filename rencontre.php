@@ -7,7 +7,7 @@
 <?php include "navbar.php"; ?>
       <div class="container">
         <center>
-          <IMG src="./rsport.jpeg">
+          <IMG src="./assets/images/rsport.jpeg">
         </center>
         <br/>
         <center>

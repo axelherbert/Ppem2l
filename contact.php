@@ -1,113 +1,84 @@
 <!DOCTYPE html>
 <html>
-<meta charset="utf-8">
-<style>
-  .snowright{
-    float: right;
-    width: 550px;
-    height: 235px;
-
-  }
-</style>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <head>
-  <title>Maison des Ligues</title>
+	<title>Contact</title>
 </head>
 <body>
-
 <?php include "navbar.php"; ?>
-
-        <article class="left">
-      <form  method="post" action="formpost.php">
-<div style="padding: 5px;
- position:fixed;
- border: 2px solid black;
- right:350px;
- left: 10px;
-  margin-left:auto; margin-right:auto; width: 800px; height: 410px">
-  <img class="snowright" src="ski.jpg">
-<h3>Contact</h3></br>
-  <p align="left">Nom</br>
-  <input type="text" name="auteur" />
-
-    <p align="left">Prénom</br>
-  <input type="text" name="auteur" />
-    <p align="left">E-mail</br>
-  <input type="text" name="auteur" />
-  </br><p align="left">Votre message</br>
-  <textarea name="message" rows="6" cols="123"></textarea></br>
-  <button type="submit" class="btn btn-success">Envoyer</button>
+<div class="jumbotron jumbotron-sm">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-lg-12">
+                <h2 class="h2">
+                  COORDONNEES <small>Maison des Ligues de Lorraine</small></h2>
+            </div>
+        </div>
+    </div>
 </div>
-</article>
-<iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d363.14031846754244!2d6.214235122605976!3d48.697632205357934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x4794983386479251%3A0xc58bc09976474b86!2s13+Rue+Jean+Moulin%2C+54510+Tomblaine!3m2!1d48.6977444!2d6.2141532!5e0!3m2!1sfr!2sfr!4v1487927361929" width="800" height="450" frameborder="0" style="padding: 5px;
- position:fixed;
- border: 2px solid black;
- right:350px;
- left: 10px;
-  margin-left:auto; margin-right:auto; width: 800px; height: 500px;top:550px; " allowfullscreen></iframe>
-
-  <section class="right">
-
-<div style="padding: 6px;
-  position:fixed;
-  top:100px;
-  bottom:50px;
-  left:815px;
-  right:10px;
-  border: 2px solid black; width: 325px; height: 950px;margin-left : auto;margin-right : auto;">
-         <h2>
-            COORDONNEES
-         </h2>
-         <h4>Maison des Ligues de Lorraine</h4>
-         <p>
-            <br />
-            13 rue Jean Moulin - BP 70001<br />
-            54510 TOMBLAINE<br />
-            Tél. : 03.83.18.87.02<br />
-            Fax : 03.83.18.87.03<br />
-            Email : <a href="mailto:contact@m2l.fr">contact@m2l.fr</a><br /><br />
-            <br />
-         </p>
-         <h4>Directeur</h4>
-         <p>
-            </br />
-            <span class="name">Lucien SAPIN</span><br />
-            Tél. : 03 83 18 87 02<br />
-            Fax : 03 83 18 87 03<br />
-            Email : <a href="mailto:lucien.gastaldello@m2l.fr">lucien.gastaldello@m2l.fr</a><br /><br />
-            <br />
-         </p>
-         <h4>Chargée Impact Emploi</h4>
-         <p>
-            <br />
-            <span class="name">Nathalie GENAIS</span><br />
-            Tél. : 03 83 18 87 05<br />
-            Email : <a href="mailto:martine.genoux@m2l.fr">martine.genoux@m2l.fr</a><br /><br />
-            <br />
-         </p>
-         <h4>Chargée d’infographie</h4>
-         <p>
-            <br />
-            <span class="name">Lorette GIROUX</span><br />
-            Tél. : 03 83 18 87 06<br />
-            Email : <a href="mailto:lorette.bossart@m2l.fr">lorette.bossart@m2l.fr</a><br /><br />
-            <br />
-         </p>
-         <h4>Secrétaire Comptable</h4>
-         <p>
-            <br />
-            <span class="name">Martine DUPONT</span><br />
-            Tél. : 03 83 18 87 07<br />
-            Fax : 03 83 18 87 03<br />
-            Email : <a href="mailto:jeannine.vuillemard@m2l.fr">jeannine.vuillemard@m2l.fr</a>
-
-         </p>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="well well-sm">
+                <form>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Nom</label>
+                            <input type="text" class="form-control" id="name" placeholder="Saisir votre nom" required="required" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">
+                                Adresse email</label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                </span>
+                                <input type="email" class="form-control" id="email" placeholder="Saisir votre adresse email" required="required" /></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">
+                                Sujet</label>
+                            <select id="subject" name="subject" class="form-control" required="required">
+                                <option value="na" selected="">Choisir:</option>
+                                <option value="service">Service client</option>
+                                <option value="suggestions">Suggestions</option>
+                                <option value="product">S.A.V</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Message</label>
+                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-success pull-right" id="btnContactUs">
+                            Envoyer</button>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <form>
+            <legend><span class="glyphicon glyphicon-globe"></span> L'adresse</legend>
+            <address>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2633.404560983434!2d6.211964515430417!3d48.69774791995857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4794983386479251%3A0xc58bc09976474b86!2s13+Rue+Jean+Moulin%2C+54510+Tomblaine!5e0!3m2!1sfr!2sfr!4v1488560215757" width="350" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>            </address>
+            <address>
+                <strong>Adresse Email</strong><br><br>
+                <a href="mailto:#">contact@m2l.fr</a>
+            </address>
+            </form>
+        </div>
+    </div>
 </div>
-</section>
-  </p>
-</form>
+
 </body>
-      </html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="./assets/css/contact.css"
+</html>

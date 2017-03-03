@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/bootstrap-theme.css">
 <head>
-<title>Monitor</title>
+<title>Reservation</title>
 </head>
 
 <body>
