@@ -15,6 +15,8 @@
 
 <body>
 <?php
+
+include "../navbar.php";
 include "connect.php";
 
 $bdd = connectToSQL();
@@ -27,7 +29,7 @@ $res = $bdd->query('SELECT * FROM booking');?>
 		<div class="panel panel-primary">
 		    <div class="panel-heading">
 		        <h3>Reservation des salles</h3>
-            <a href="../add-booking.php" class="btn btn-primary">Éditer une réservation</a>
+            <a href="booking.php" class="btn btn-primary">Éditer une réservation</a>
 		    </div>
 		    <table class="table table-striped table-hover">
 		        <thead>

@@ -1,18 +1,10 @@
 <!DOCTYPE html>
-<?php ini_set('display_errors', true); ?>
 <html>
 <head>
 	<title>Contact</title>
 </head>
 <body>
-	
-	<link rel="stylesheet" href="assets/css/bootstrap.css">
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/bootstrap.js"></script>
-
-
-<?php include "assets/inc/navbar.php";?>
-
+<?php include "navbar.php"; ?>
 <div class="jumbotron jumbotron-sm">
     <div class="container">
         <div class="row">
@@ -85,4 +77,8 @@
 </div>
 
 </body>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="./assets/css/contact.css"
 </html>

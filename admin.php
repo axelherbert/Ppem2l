@@ -1,14 +1,10 @@
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" href="assets/css/bootstrap.css">
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/bootstrap.js"></script>
 <head>
 	<title>Admin</title>
 </head>
 <body>
-<?php include "assets/inc/navbar.phpnavbar.php";
-ini_set('display_errors', true); ?>
+<?php include "navbar.php"; ?>
 <div class="col-md-12">
     <div class="modal-dialog" style="margin-bottom:0">
         <div class="modal-content">
@@ -31,4 +27,7 @@ ini_set('display_errors', true); ?>
                 </div>
     </div>
 </body>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </html>

@@ -7,7 +7,7 @@
   <body>
     <div class="container">
 
-          <nav class="navbar navbar-default navbar-fixed-top">
+          <nav class="navbar navbar-default">
             <div class="container-fluid">
               <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -22,7 +22,7 @@
                   <li class="active"><a href="./index.php">Home</a></li>
     							<li><a href="./rencontre.php">Rencontre</a></li>
                   <li><a href="./contact.php">Contact</a></li>
-                  <li><a href="booking.php">Réservation salles</a></li>
+                  <li><a href="res-salles/index.php">Réservation salles</a></li>
                   </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
