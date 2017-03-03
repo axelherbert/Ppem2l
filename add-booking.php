@@ -8,6 +8,7 @@
 	<title>Home</title>
 </head>
 <body>
-<?php include "assets/inc/navbar.php"; ?>
+<?php include "assets/inc/navbar.php";
+include "assets/inc/booking.php";?>
 </body>
 </html>
