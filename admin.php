@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<?php ini_set('display_errors', true); ?>
 <link rel="stylesheet" href="assets/css/bootstrap.css">
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/bootstrap.js"></script>
@@ -7,7 +8,7 @@
 	<title>Admin</title>
 </head>
 <body>
-<?php include "assets/inc/navbar.phpnavbar.php";
+<?php include "assets/inc/navbar.php";
 ini_set('display_errors', true); ?>
 <div class="col-md-12">
     <div class="modal-dialog" style="margin-bottom:0">
