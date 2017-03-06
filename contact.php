@@ -10,7 +10,9 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-<?php include "assets/inc/navbar.php";?>
+<?php
+$page ='Contact';
+include "assets/inc/navbar.php";?>
 
 <div class="jumbotron jumbotron-sm">
     <div class="container">

@@ -9,6 +9,7 @@
 </head>
 <body>
 <?php
+$page ='booking';
 include "assets/inc/navbar.php";
 include "assets/inc/tab-room.php";
 ?>

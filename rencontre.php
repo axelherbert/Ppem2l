@@ -8,7 +8,9 @@
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/bootstrap.js"></script>
 
-<?php include "assets/inc/navbar.php"; ?>
+<?php
+$page ='Rencontre';
+include "assets/inc/navbar.php"; ?>
 
       <div class="container">
         <center>

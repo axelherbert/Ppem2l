@@ -8,7 +8,9 @@
 	<title>Admin</title>
 </head>
 <body>
-<?php include "assets/inc/navbar.php";
+<?php
+$page ='Admin';
+include "assets/inc/navbar.php";
 ini_set('display_errors', true); ?>
 <div class="col-md-12">
     <div class="modal-dialog" style="margin-bottom:0">
