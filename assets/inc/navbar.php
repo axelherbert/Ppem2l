@@ -62,7 +62,6 @@ function echoActiveClassIfRequestMatches($requestUri)
                   <a href="./admin.php">Admin</a></li>
                 </ul>
               </div>
-              <div ng-view></div>
             </div>
           </nav>
   </body>
