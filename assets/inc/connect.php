@@ -13,5 +13,4 @@ function connectToSQL()
 
 	return $bdd;
 }
-
 ?>
