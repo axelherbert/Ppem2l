@@ -1,14 +1,6 @@
 <!DOCTYPE HTML>
 <?php ini_set('display_errors', true); ?>
 <html>
-<!-- BOOTSRAP -->
-<script src="js/jquery-3.1.1.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/bootstrap.js"></script>
-<link rel="stylesheet" href="css/bootstrap.css">
-<link rel="stylesheet" href="css/bootstrap-theme.min.css">
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/bootstrap-theme.css">
 <head>
 <title>Reservation</title>
 </head>
