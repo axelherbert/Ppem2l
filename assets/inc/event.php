@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<?php ini_set('display_errors', true); ?>
 <link rel="stylesheet" href="../css/postevent.css">
 
   <head>
