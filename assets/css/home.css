@@ -1,0 +1,19 @@
+.jumbotron {
+border-radius: 0px;
+}
+.jumbotron-sm { padding-top: 0px;
+padding-bottom: 24px; }
+
+.h1 small {
+font-size: 24px;
+}
+.carousel-inner.onebyone-carosel {
+  margin: auto; width: 90%; }
+.onebyone-carosel .active.left {
+  left: -33.33%; }
+.onebyone-carosel .active.right {
+  left: 33.33%; }
+.onebyone-carosel .next {
+  left: 33.33%; }
+.onebyone-carosel .prev {
+  left: -33.33%; }
