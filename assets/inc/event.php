@@ -54,7 +54,7 @@
                 <div class="panel-footer panel-primary">
                     <p><?php echo $description; ?>
                     </p>
-                    <a href="http://ulurudaytours.com.au/" class="btn btn-success">Contacter</a>
+                    <a href="#" class="btn btn-success">Contacter</a>
                 </div>
             </div>
         </div>

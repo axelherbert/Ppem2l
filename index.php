@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php ini_set('display_errors', true); ?>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 <link rel="stylesheet" href="assets/css/bootstrap.css">
 <link rel="stylesheet" href="assets/css/bootstrap-theme.css">
 <link rel="stylesheet" href="assets/css/home.css">
@@ -9,7 +9,7 @@
 <script src="assets/js/bootstrap.js"></script>
 <script src="assets/js/home.js"></script>
 <head>
-	<title>Home</title>
+	<title>Accueil</title>
 </head>
 <body>
 
@@ -49,7 +49,7 @@
 				<div class="span12">
 						<div class="well">
 								<div id="myCarousel" class="carousel fdi-Carousel slide">
-								 <!-- Carousel items -->
+
 										<div class="carousel fdi-Carousel slide" id="eventCarousel" data-interval="0">
 												<div class="carousel-inner onebyone-carosel">
 														<div class="item active">
@@ -80,9 +80,9 @@
 												<a class="left carousel-control" href="#eventCarousel" data-slide="prev"></a>
 												<a class="right carousel-control" href="#eventCarousel" data-slide="next"></a>
 										</div>
-										<!--/carousel-inner-->
-								</div><!--/myCarousel-->
-						</div><!--/well-->
+
+								</div>
+						</div>
 				</div>
 		</div>
 </div>
