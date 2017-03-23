@@ -19,12 +19,12 @@
               <div id="navbar" class="navbar-collapse collapse">
                   <ul class="nav navbar-nav">
                   <li><a href="./index.php">Accueil</a></li>
-                  <li><a ng href="./rencontre.php">Rencontre</a></li>
-                  <li><a href="./contact.php">Contact</a></li>
                   <li><a href="booking.php">Réservation salles</a></li>
                   <li><a href="event.php">Évenement</a></li>
+                  <li><a href="./contact.php">Contact</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
+                  <li><a href="./login.php">Connexion</a></li>
                   <li><a href="./admin.php">Admin</a></li>
                 </ul>
               </div>
