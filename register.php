@@ -15,7 +15,7 @@
 
 <?php $page="Inscription"; ?>
 <?php include "assets/inc/navbar.php"; ?>
-
+<center><img src="assets/images/logo-m2l.png" alt="Logo" /></center><br>
 <div class="container">
     <div class="row">
         <div class='col-md-3'></div>
