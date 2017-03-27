@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="assets/css/event.css">
   <head>
     <meta charset="utf-8">
-    <title>Evennement</title>
+    <title>Evénement</title>
   </head>
   <body>
     <?php
