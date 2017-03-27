@@ -19,31 +19,43 @@
 	<div class="jumbotron jumbotron-sm">
     <div class="container">
       <div class="row">
-        <div class="col-sm-12 col-lg-12">
+        <div class="col-sm-8 col-lg-8">
           <h2 class="h2">
             PRESENTATION <small>Maison des Ligues de Lorraine</small>
 					</h2>
         </div>
+				<div class="col-sm-4 col-lg-4">
+					<center><img src="assets/images/logo-m2l.png" alt="Logo" /></center><br>
+				</div>
       </div>
     </div>
 	</div>
-
-<div class="container">
+	<div class="row">
+		<div class="container">
       <div id="presentation">
         <div class="wrap">
           <section>
-						<center><img src="assets/images/logo-m2l.png" alt="Logo" /></center><br>
-          <p>
-            <br />La Maison des Ligues de Lorraine (M2L) a pour mission de fournir des espaces et des services aux différentes ligues sportives régionales de Lorraine et à d’autres structures hébergées.
-						<br /> La M2L est une structure financée par le Conseil Régional de Lorraine dont l'administration est déléguée au Comité Régional Olympique et Sportif de Lorraine (CROSL).
-						<br /> Installée depuis 2003 dans la banlieue Nancéienne, la M2L accueille l'ensemble du mouvement sportif Lorrain qui représente près de 6 500 clubs, plus de 525 000 licenciés et près de 50 000 bénévoles.
-        		<br />
-						<br />
-          </p>
-        </section>
+						<!-- <center><img src="assets/images/logo-m2l.png" alt="Logo" /></center><br> !-->
+						<div class="col-sm-8">
+          	<p>
+            	<br />La Maison des Ligues de Lorraine (M2L) a pour mission de fournir des espaces et des services aux différentes ligues sportives régionales de Lorraine et à d’autres structures hébergées.
+							<br /> La M2L est une structure financée par le Conseil Régional de Lorraine dont l'administration est déléguée au Comité Régional Olympique et Sportif de Lorraine (CROSL).
+							<br /> Installée depuis 2003 dans la banlieue Nancéienne, la M2L accueille l'ensemble du mouvement sportif Lorrain qui représente près de 6 500 clubs, plus de 525 000 licenciés et près de 50 000 bénévoles.
+        			<br />
+							<br />
+          	</p>
+						</div>
+        	</section>
+				</div>
+			</div>
+			<div class="col-sm-4" style="background-color:#eaeaea; border-style: groove;">
+				<h2>Le mot du Président</h2>
+							Je sais bien que ma manière de parler, fort et cru, est une transgression de cet ordre mielleux.
+				<br />Elle est une ligne d'action autant qu'un état d'esprit ...
+				<br /><br />
 			</div>
 		</div>
-</div>
+	</div>
 
 <div class="container">
 		<div class="row">
