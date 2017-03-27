@@ -14,7 +14,7 @@
     }
 
 time.pink {
-    background-color: rgb(198, 44, 103);
+    background-color: rgb(197, 44, 102);
 }
     time.purple {
         background-color: rgb(165, 82, 167)
@@ -60,6 +60,7 @@ time.blue_green { background-color: #148aa5 }
     time.white { background-color: #ffffff}
     time.yellow { background-color: #feee35}
     time.yellow_green { background-color: #defd35}
+    time.yellow_orange { background-color: #fec42e}
     time.yellow_orange { background-color: #fec42e}
 
     .time {

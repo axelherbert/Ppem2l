@@ -40,12 +40,12 @@
                   <img src="assets/images/football.jpg" alt="event image" class="img-responsive" />
                     <div class="row nopadding">
                         <div class="col-sm-6 nopadding">
-                            <time class="start pink">
+                            <time class="start ligh_blue">
                                 Début <span class="day"><?php echo $hdebut->format('H:i'); ?></span>
                             </time>
                         </div>
                         <div class="col-sm-6 nopadding">
-                            <time class="end purple">
+                            <time class="end ligh_blue">
                                 Fin <span class="day"><?php echo $hfin->format('H:i'); ?></span>
                             </time>
                         </div>

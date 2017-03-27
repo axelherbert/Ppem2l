@@ -10,11 +10,8 @@
     <title></title>
   </head>
   <body>
-    <?php
-    include 'assets/inc/navbar.php';
-    include 'assets/inc/event.php';
-    ?>
-<a href="addevent.php">Créer</a>
+<?php include "assets/inc/navbar.php";
+include 'assets/inc/formevent.php'; ?>
 
   </body>
 </html>

@@ -10,6 +10,7 @@
     <title></title>
   </head>
   <body>
+
             <div class="container">
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-4 well well-sm">
@@ -37,16 +38,9 @@
                 <div class="col-xs-12 col-md-12">
                     <select class="form-control" name="sport" required="required">
                         <option value="Football">Football</option>
-                        <option value="Rugby">Rugby</option>
+                        <option value="Rugby">Rugby</option><br>
                     </select>
                 </div>
-            </div>
-            <!-- File Button -->
-            <div class="form-group">
-              <label for="filebutton">Image de l'événement (optionel)</label>
-              <div class="col-xs-12 col-md-12">
-                <input id="filebutton" name="userfile" class="input-file" type="file">
-              </div>
             </div>
             <button class="btn btn-lg btn-primary btn-block" type="submit">Crée</button>
             </form>
