@@ -34,7 +34,7 @@
 
       	?>
         <div class="col-sm-4">
-            <div class="panel panel-primary event-primary">
+            <div class="panel panel-default">
                 <div class="panel-heading"><h2><a href="#"><?php echo $nom .'</h2></a> ('. date_format($date, 'd/m/y').') - '. $sport ?></a></h2></div>
                 <div class="panel-body nopadding">
                   <img src="assets/images/football.jpg" alt="event image" class="img-responsive" />

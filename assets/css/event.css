@@ -14,10 +14,10 @@
     }
 
 time.pink {
-    background-color: rgb(197, 44, 102);
+    background-color: rgb(237, 21, 21);
 }
     time.purple {
-        background-color: rgb(165, 82, 167)
+        background-color: rgb(255, 0, 0);
     }
 
     time.dkblue
@@ -29,12 +29,12 @@ time.blue_green { background-color: #148aa5 }
     time.blue_violet { background-color: #3714a4}
     time.brown { background-color: #964B00}
     time.crimson { background-color: #a50516}
-    time.deep_pink { background-color: #fb3c8f}
+    time.deep_pink { background-color: #403cfb}
     time.forest_green { background-color: #1b4f15}
     time.fuchsia { background-color: #a51497}
     time.gray { background-color: #686868}
     time.green { background-color: #3aa03a}
-    time.hotpink { background-color: #ff0080}
+    time.hotpink { background-color: #ff0000}
     time.lemon { background-color: #fee233}
     time.ligh_blue { background-color: #8bbdeb}
     time.light_red { background-color: #fc6a6c}
@@ -48,8 +48,8 @@ time.blue_green { background-color: #148aa5 }
     time.orange_red { background-color: #fc331c}
     time.orange_yellow { background-color: #ffcc00}
     time.peach { background-color: #FFE5B4}
-    time.pink { background-color: #fc5ab8}
-    time.purple { background-color: #af31f2}
+    time.pink { background-color: #007dff}
+    time.purple { background-color: #ff0000}
     time.red { background-color: #fc0d1b}
     time.red_orange { background-color: #d7462c }
     time.salmon { background-color: #f69e94}
@@ -63,7 +63,7 @@ time.blue_green { background-color: #148aa5 }
     time.yellow_orange { background-color: #fec42e}
 
     .time {
-        background-color: rgb(165, 82, 167);
+        background-color: rgb(19, 119, 212);
     }
 
     time > span {
