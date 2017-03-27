@@ -17,7 +17,7 @@
 
 </head>
 <body>
-	
+
 
 	<?php $page="Accueil"; ?>
 	<?php include "assets/inc/navbar.php"; ?>
@@ -25,9 +25,12 @@
 	<div class="jumbotron jumbotron-sm">
     <div class="container">
       <div class="row">
-        <div class="col-sm-12 col-lg-12">
+        <div class="col-sm-8 col-lg-8">
           <h2 class="h2">News</h2>
         </div>
+				<div class="col-sm-4 col-lg-4">
+					<center><img src="assets/images/logo-m2l.png" alt="Logo" /></center><br>
+				</div>
       </div>
     </div>
 	</div>
