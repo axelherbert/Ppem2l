@@ -14,7 +14,7 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="./index.php">PPE</a>
+                <a href="./index.php"><img class="navbar-brand" src="assets/images/M2L.png"></a>
               </div>
               <div id="navbar" class="navbar-collapse collapse">
                   <ul class="nav navbar-nav">
