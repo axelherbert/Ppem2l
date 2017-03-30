@@ -8,6 +8,7 @@
 </head>
 <body>
 
+
 <?php $page="Accueil"; ?>
 <?php include "assets/inc/navbar.php"; ?>
 
