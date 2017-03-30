@@ -3,8 +3,8 @@
 <head>
 	<title>News</title>
 	 <title>jquery.rss example</title>
-	 <link rel="stylesheet" href="assets/css/bootstrap.css">
-	<link rel="stylesheet" href="assets/css/bootstrap-theme.css">
+	 <link rel="stylesheet" href="assets/css/bootstrapp.css">
+	 <link rel="stylesheet" href="assets/css/home.css">
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/bootstrap.js"></script>
 
@@ -19,8 +19,7 @@
 <body>
 
 
-	<?php $page="Accueil"; ?>
-	<?php include "assets/inc/navbar.php"; ?>
+	<?php include "assets/inc/navbar.php";?>
 
 	<div class="jumbotron jumbotron-sm">
     <div class="container">
@@ -35,10 +34,13 @@
     </div>
 	</div>
 
+<iframe width=600px height=400px src="https://feed.mikle.com/widget/v2/19732/"></iframe>
+
 <div style="clear: both;">
 </div>
 </div>
 <div id="rss-feeds"></div>
+
 
 </body>
 </html>

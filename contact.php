@@ -6,8 +6,8 @@
 </head>
 <body>
 
-<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-<link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="assets/css/bootstrapp.css">
+	<link rel="stylesheet" href="assets/css/home.css">
 <script src="assets/js/bootstrap.min.js"></script>
 
 <?php
