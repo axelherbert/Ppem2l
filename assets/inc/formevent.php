@@ -1,10 +1,5 @@
 <!DOCTYPE html>
 <html>
-<script src="../js/jquery-3.1.1.js"></script>
-<script src="../js/script.js"></script>
-<script src="../js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="../css/bootstrap.min.css">
-<link rel="stylesheet" href="../css/style.css">
   <head>
     <meta charset="utf-8">
     <title></title>

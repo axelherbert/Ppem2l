@@ -2,14 +2,11 @@
 <html>
 <head>
 	<title>News</title>
-	 <title>jquery.rss example</title>
-	 <link rel="stylesheet" href="assets/css/bootstrap.css">
-	<link rel="stylesheet" href="assets/css/bootstrap-theme.css">
+<link rel="stylesheet" href="assets/css/bootstrapp.css">
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/bootstrap.js"></script>
-
     <script src="assets/js/rss.js"></script>
-    
+
     <script>
       jQuery(function($) {
         $("#rss-foot").rss("http://www.lequipe.fr/rss/actu_rss_Football.xml")
@@ -38,10 +35,7 @@
 
 </head>
 <body>
-	
-
-	<?php $page="Accueil"; ?>
-	<?php include "assets/inc/navbar.php"; ?>
+		<?php include "assets/inc/navbar.php"; ?>
 
 	<div class="jumbotron jumbotron-sm">
     <div class="container">
