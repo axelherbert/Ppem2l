@@ -59,8 +59,9 @@ time.blue_green { background-color: #148aa5 }
     time.violet_blue { background-color: #6041fa}
     time.white { background-color: #ffffff}
     time.yellow { background-color: #feee35}
-    time.yellow_green { background-color: #defd35}
+    time.yellow_green { background-color: #c6ea28}
     time.yellow_orange { background-color: #fec42e}
+    time.vert_fonce {background-color: #85b828}
 
     .time {
         background-color: rgb(19, 119, 212);

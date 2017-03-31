@@ -16,7 +16,7 @@ $res = $bdd->query('SELECT * FROM booking');?>
 <div class="container">
 	<div class="row">
         <h2>Maison des Ligues</h2>
-		<div class="panel panel-primary">
+		<div class="panel panel-perso">
 		    <div class="panel-heading">
 		        <h3>Reservation des salles</h3>
             <a href="./add-booking.php" class="btn btn-primary">Éditer une réservation</a>

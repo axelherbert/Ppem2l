@@ -1,0 +1,42 @@
+.panel-perso > .panel-body-perso + .table,
+.panel-perso > .panel-body-perso + .table-responsive,
+.panel-perso > .table + .panel-body-perso,
+.panel-perso > .table-responsive + .panel-body-perso {
+  border-top: 1px solid #ddd;
+}
+.panel-perso {
+  border-color: #fbab1b;
+}
+.panel-perso > .panel-heading-perso {
+  color: #d72007;
+  background-color: #fbab1b;
+  border-color: #fbab1b;
+}
+.panel-perso > .panel-heading-perso + .panel-collapse-perso > .panel-body-perso {
+  border-top-color: #fbab1b;
+}
+.panel-perso > .panel-heading-perso .badge {
+  color: #fbab1b;
+  background-color: #fff;
+}
+.panel-perso > .panel-footer-perso + .panel-collapse-perso > .panel-body-perso {
+  border-bottom-color: #fbab1b;
+}
+.panel-heading-perso {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+
+}
+.panel-heading-perso > .dropdown .dropdown-toggle {
+  color: inherit;
+}
+.panel-footer-perso {
+  padding: 10px 15px;
+  color: #d72007;
+  background-color: #fbab1b;
+  border-top: 1px solid rgba(#d72108, 0);
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php ini_set('display_errors', true); ?>
-<link rel="stylesheet" href="../css/postevent.css">
+
 
   <head>
     <meta charset="utf-8">
@@ -34,24 +34,24 @@
 
       	?>
         <div class="col-sm-4">
-            <div class="panel panel-default">
-                <div class="panel-heading"><h2><a href="#"><?php echo $nom .'</h2></a> ('. date_format($date, 'd/m/y').') - '. $sport ?></a></h2></div>
-                <div class="panel-body nopadding">
+            <div class="panel panel-perso">
+                <div class="panel-heading-perso"><h2><?php echo $nom .'</h2> ('. date_format($date, 'd/m/y').') - '. $sport ?></a></h2></div>
+                <div class="panel-body-perso nopadding">
                   <img src="assets/images/football.jpg" alt="event image" class="img-responsive" />
                     <div class="row nopadding">
                         <div class="col-sm-6 nopadding">
-                            <time class="start ligh_blue">
+                            <time class="start yellow_green">
                                 Début <span class="day"><?php echo $hdebut->format('H:i'); ?></span>
                             </time>
                         </div>
                         <div class="col-sm-6 nopadding">
-                            <time class="end ligh_blue">
+                            <time class="end vert_fonce">
                                 Fin <span class="day"><?php echo $hfin->format('H:i'); ?></span>
                             </time>
                         </div>
                     </div>
                 </div>
-                <div class="panel-footer panel-primary">
+                <div class="panel-footer-perso panel-perso">
                     <p><?php echo $description; ?>
                     </p>
                     <a href="#" class="btn btn-success">Contacter</a>
