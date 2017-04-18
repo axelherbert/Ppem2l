@@ -69,19 +69,19 @@ ini_set('display_errors', true); ?>
 																		<div class="text-center">Tennis</div>
 																</div>
 														</div>
-														<div class="item">
+														<div class="item active">
 																<div class="col-md-4">
 																		<a href="#"><img src="assets/images/natation.jpg" class="img-responsive center-block"></a>
 																		<div class="text-center">Natation</div>
 																</div>
 														</div>
-														<div class="item">
+														<div class="item active">
 																<div class="col-md-4">
 																		<a href="#"><img src="assets/images/boxe.jpg" class="img-responsive center-block"></a>
 																		<div class="text-center">Boxe</div>
 																</div>
 														</div>
-														<div class="item">
+														<div class="item active">
 																<div class="col-md-4">
 																		<a href="#"><img src="assets/images/football.jpg" class="img-responsive center-block"></a>
 																		<div class="text-center">Football</div>
