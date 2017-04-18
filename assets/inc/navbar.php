@@ -20,7 +20,12 @@
                   <li><a href="./contact.php">Contact</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                  <li><a href="./login.php">Connexion</a></li>
+                  <li><?php if (!isset($_SESSION['id'])){
+                              ?><a href="./login.php">Connection</a><?php
+                            }
+                            else {
+                              ?><a href="disconnect.php">Déconnection</a><?php
+                            }?> </li>
                   <li><a href="./admin.php">Admin</a></li>
                 </ul>
               </div>

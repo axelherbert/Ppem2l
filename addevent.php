@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
-<?php ini_set('display_errors', true); ?>
+<?php
+session_start();
+ini_set('display_errors', true); ?>
 <script src="assets/js/jquery-3.1.1.js"></script>
 <link rel="stylesheet" href="assets/css/bootstrapp.css">
 <link rel="stylesheet" href="assets/css/event.css">

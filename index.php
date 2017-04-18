@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
-<?php ini_set('display_errors', true); ?>
+<?php
+session_start();
+ini_set('display_errors', true); ?>
 <link rel="stylesheet" href="assets/css/bootstrapp.css">
 <link rel="stylesheet" href="assets/css/home.css">
 <head>
@@ -98,3 +100,42 @@
 <?php include "assets/inc/footer.php" ?>
 </body>
 </html>
+
+<?php
+
+if (isset($_POST['askConnect'])) {
+
+	include "assets/inc/connect.php";
+
+	$bdd = connectToSQL();
+
+  // Vérification des identifiants
+  $req = $bdd->prepare('SELECT * FROM users WHERE pseudo = :pseudo AND password = :password');
+  $req->execute(array(
+    'pseudo' => $_POST['pseudo'],
+    'password' => $_POST['password']));
+
+    $resultat = $req->fetch();
+
+    if (!$resultat) {
+      echo 'Mauvais identifiant ou mot de passe !';
+    }
+    else {
+      $_SESSION['id'] = $resultat['id'];
+      $_SESSION['mail'] = $resultat['mail'];
+      $_SESSION['prenom'] = $resultat['prenom'];
+      $_SESSION['nom'] = $resultat['nom'];
+      $_SESSION['type'] = $resultat['type'];
+			$_SESSION['pseudo'] = $resultat['pseudo'];
+
+      echo 'Vous êtes connecté !';
+
+      echo "<meta http-equiv='refresh' content='0'>";
+    }
+
+  }
+  else {
+
+  }
+
+  ?>
