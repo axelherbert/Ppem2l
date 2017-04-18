@@ -24,7 +24,7 @@
                               ?><a href="./login.php">Connection</a><?php
                             }
                             else {
-                              ?><a href="disconnect.php">Déconnection</a><?php
+                              ?><a href="assets\inc\disconnect.php">Déconnection</a><?php
                             }?> </li>
                   <li><a href="./admin.php">Admin</a></li>
                 </ul>
