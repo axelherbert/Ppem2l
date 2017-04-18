@@ -20,12 +20,13 @@
                   <li><a href="./contact.php">Contact</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                  <li><?php if (!isset($_SESSION['id'])){
-                              ?><a href="./login.php">Connection</a><?php
+                  <?php if (!isset($_SESSION['id'])){
+                              ?><li><a href="./login.php">Connection</a></li><?php
                             }
                             else {
-                              ?><a href="assets\inc\disconnect.php">Déconnection</a><?php
-                            }?> </li>
+                              ?><li><?php echo 'Bonjour ' . $_SESSION['prenom'] . ' |  '; ?></li><?php
+                              ?><li><a href="assets\inc\disconnect.php">Déconnection</a></li><?php
+                            }?>
                   <li><a href="./admin.php">Admin</a></li>
                 </ul>
               </div>
