@@ -1,10 +1,5 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
     <div class="container">
           <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
@@ -32,5 +27,4 @@
             </div>
           </nav>
         </div>
-  </body>
 </html>
