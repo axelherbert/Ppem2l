@@ -21,11 +21,11 @@
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <?php if (!isset($_SESSION['id'])){
-            ?><li><a href="./login.php">Connection</a></li><?php
+            ?><li><a href="./login.php">Connexion</a></li><?php
           }
           else {
             ?><li><?php echo 'Bonjour ' . $_SESSION['prenom'] . ' |  '; ?></li><?php
-            ?><li><a href="assets\inc\disconnect.php">Déconnection</a></li><?php
+            ?><li><a href="assets\inc\disconnect.php">Déconnexion</a></li><?php
 
             if ($_SESSION['type'] == 'administrateur')
             {
