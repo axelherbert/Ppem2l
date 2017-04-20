@@ -8,7 +8,7 @@ ini_set("display_errors",0);error_reporting(0);
 </head>
 <body>
 
-	<link rel="stylesheet" href="assets/css/bootstrapp.css">
+	<link rel="stylesheet" href="assets/css/bootstrap.css">
 	<link rel="stylesheet" href="assets/css/home.css">
 <script src="assets/js/bootstrap.min.js"></script>
 

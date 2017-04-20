@@ -5,7 +5,7 @@ session_start();
 <html>
 <head>
 	<title>News</title>
-<link rel="stylesheet" href="assets/css/bootstrapp.css">
+<link rel="stylesheet" href="assets/css/bootstrap.css">
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/bootstrap.js"></script>
     <script src="assets/js/rss.js"></script>

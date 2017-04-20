@@ -1,7 +1,7 @@
 <script src="assets/css/home.css"></script>
 <script src="assets/js/jquery-3.1.1.min.js"></script>
 <script src="assets/js/bootstrap.js"></script>
-<link rel="stylesheet" href="assets/css/bootstrapp.css">
+<link rel="stylesheet" href="assets/css/bootstrap.css">
 <link rel="stylesheet" href="assets/css/home.css">
 
 <div class="container">
