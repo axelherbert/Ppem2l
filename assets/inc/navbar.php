@@ -29,7 +29,7 @@
                   <ul class="dropdown-menu">
                     <li><a href="#">Mes événements</a></li>
                     <li><a href="#">Mes réservation</a></li>
-                    <li><a href="#">Mon compte</a></li>
+                    <li><a href="./account.php">Mon compte</a></li>
                     <li><a href="assets\inc\disconnect.php">Déconnexion</a></li>
                   </ul>
                 </li>
