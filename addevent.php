@@ -3,7 +3,9 @@
 <?php
 session_start();
 ini_set('display_errors', true); ?>
-<script src="assets/js/jquery-3.1.1.js"></script>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="assets/js/bootstrap.js"></script>
 <link rel="stylesheet" href="assets/css/bootstrap.css">
 <link rel="stylesheet" href="assets/css/event.css">
   <head>
