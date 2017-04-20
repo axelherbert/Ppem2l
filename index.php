@@ -59,7 +59,7 @@ if (isset($_POST['askConnect'])) {
       <div class="row">
         <div class="col-sm-8 col-lg-8">
           <h2 class="h2">
-            PRESENTATION <small>Maison des Ligues de Lorraine</small>
+            PRESENTATION <small>Maison des Ligues de Lorraine</small> NICOLAS REPARE MON CAROUSEL
 					</h2>
         </div>
 				<div class="col-sm-4 col-lg-4">
