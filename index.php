@@ -65,9 +65,6 @@ if (isset($_POST['askConnect'])) {
             PRESENTATION <small>Maison des Ligues de Lorraine</small>
 					</h2>
         </div>
-				<div class="col-sm-4 col-lg-4">
-					<center><img src="assets/images/logo-m2l.png" alt="Logo" /></center><br>
-				</div>
       </div>
     </div>
 	</div>
