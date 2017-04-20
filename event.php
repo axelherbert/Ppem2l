@@ -15,8 +15,13 @@ ini_set('display_errors', true); ?>
     <?php
     include 'assets/inc/navbar.php';
     include 'assets/inc/event.php';
-    ?>
-<a href="addevent.php">Créer</a>
+
+  if (isset($_SESSION['id'])){
+    	            ?><a href="addevent.php">Créer</a><?php
+    	          }
+    						else {
+
+    						} ?>
 
   </body>
 </html>

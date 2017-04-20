@@ -19,7 +19,13 @@ $res = $bdd->query('SELECT * FROM booking');?>
 		<div class="panel panel-perso">
 		    <div class="panel-heading">
 		        <h3>Reservation des salles</h3>
-            <a href="./add-booking.php" class="btn btn-primary">Éditer une réservation</a>
+<?php  if (isset($_SESSION['id'])){
+	            ?><a href="./add-booking.php" class="btn btn-primary">Éditer une réservation</a><?php
+	          }
+						else {
+							
+						} ?>
+
 		    </div>
 		    <table class="table table-striped table-hover">
 		        <thead>

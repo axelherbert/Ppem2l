@@ -3,7 +3,7 @@
 <head>
 </head>
 <body>
-<form class="form-horizontal" method="post" action="formbooking.php">
+<form class="form-horizontal" method="post" action="assets/inc/formbooking.php">
 
 
 <!-- Form Name -->
