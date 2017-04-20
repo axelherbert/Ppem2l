@@ -24,7 +24,7 @@
             ?><li><a href="./login.php">Connexion</a></li><?php
           }
           else {
-            ?><li><?php echo 'Bonjour ' . $_SESSION['prenom'] . ' |  '; ?></li><?php
+            ?><li><a><?php echo 'Bonjour ' . $_SESSION['prenom']; ?></a></li><?php
             ?><li><a href="assets\inc\disconnect.php">Déconnexion</a></li><?php
 
             if ($_SESSION['type'] == 'administrateur')
