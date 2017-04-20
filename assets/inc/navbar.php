@@ -23,6 +23,7 @@
           <?php if (!isset($_SESSION['id'])){
             ?><li><a href="./login.php">Connexion</a></li><?php
           }
+<<<<<<< HEAD
           else { ?>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php echo 'Bonjour ' . $_SESSION['prenom']; ?><span class="caret"></span></a>
@@ -35,6 +36,11 @@
                 </li>
 
             <?php
+=======
+          else {
+            ?><li><a><?php echo 'Bonjour ' . $_SESSION['prenom']; ?></a></li><?php
+            ?><li><a href="assets\inc\disconnect.php">Déconnexion</a></li><?php
+>>>>>>> origin/master
 
             if ($_SESSION['type'] == 'administrateur')
             {
