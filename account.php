@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+<?php
+session_start();
+ini_set('display_errors', true); ?>
   <head>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -28,5 +31,14 @@
           </div>
         </div>
     	</div>
+      <?php
+
+
+
+      echo "Pseudo : " . $_SESSION['pseudo']. "<br>";
+      echo "Prenom : " . $_SESSION['prenom']. "<br>";
+      echo "Type : " . $_SESSION['type']. "<br>";
+      echo "Email : " . $_SESSION['mail']. "<br>";
+       ?>
   </body>
 </html>
