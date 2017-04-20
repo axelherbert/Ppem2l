@@ -14,6 +14,8 @@ ini_set('display_errors', true); ?>
 <?php $page="Connexion"; ?>
 <?php include "assets/inc/navbar.php"; ?>
 <center><img src="assets/images/logo-m2l.png" alt="Logo" /></center><br>
+<?php if (!isset($_SESSION['id']))
+{ ?>
 <div class="container">
     <div class="row">
         <div class='col-md-3'></div>
@@ -42,6 +44,9 @@ ini_set('display_errors', true); ?>
         </div>
         <div class='col-md-3'></div>
     </div>
-</div>
+</div> <?php }
+else {
+	echo "<center><p>Vous êtes déjà connecté</p></center>";
+} ?>
 </body>
 </html>
