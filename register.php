@@ -3,6 +3,12 @@
 <?php
 session_start();
 ini_set('display_errors', true); ?>
+<link rel="stylesheet" href="assets/css/bootstrap.css">
+<link rel="stylesheet" href="assets/css/bootstrap-theme.css">
+<link rel="stylesheet" href="assets/css/home.css">
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/home.js"></script>
 <head>
 	<title>Inscription</title>
 </head>
@@ -56,10 +62,4 @@ ini_set('display_errors', true); ?>
     </div>
 </div>
 </body>
-<link rel="stylesheet" href="assets/css/bootstrap.css">
-<link rel="stylesheet" href="assets/css/bootstrap-theme.css">
-<link rel="stylesheet" href="assets/css/home.css">
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/bootstrap.js"></script>
-<script src="assets/js/home.js"></script>
 </html>
