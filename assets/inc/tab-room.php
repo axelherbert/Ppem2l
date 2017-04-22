@@ -10,7 +10,6 @@
 include "connect.php";
 
 $bdd = connectToSQL();
-$title = $bdd->query('SELECT * FROM booking');
 $res = $bdd->query('SELECT * FROM booking');?>
 
 <div class="container">
@@ -23,7 +22,7 @@ $res = $bdd->query('SELECT * FROM booking');?>
 	            ?><a href="./add-booking.php" class="btn btn-primary">Éditer une réservation</a><?php
 	          }
 						else {
-							
+
 						} ?>
 
 		    </div>
@@ -36,22 +35,37 @@ $res = $bdd->query('SELECT * FROM booking');?>
 		                <th>Section</th>
 		                <th>Date</th>
 		                <th>Debut</th>
-                        <th>Fin</th>
+                    <th>Fin</th>
+										<th></th>
+
 		            </tr>
 		        </thead>
 		        <tbody>
+							<form class="" action="../../index.php" method="get">
+
+
                     <?php
             while ($donnees = $res->fetch())
             {
                 ?>
 		            <tr>
-
+										<td><?php echo $donnees['id']; ?></td>
 		                <td><?php echo $donnees['Salle']; ?></td>
 		                <td><?php echo $donnees['Nom']; ?></td>
 		                <td><?php echo $donnees['Section']; ?></td>
 		                <td class="status"><?php echo $donnees['Date']; ?></td>
 		                <td><?php echo $donnees['Debut']; ?></td>
-                        <td><?php echo $donnees['Fin']; ?></td>
+                    <td><?php echo $donnees['Fin']; ?></td>
+										<?php  if ($_SESSION['pseudo']==$donnees['Nom']){
+											            ?><td><a href="assets/inc/delete.php?id=<?php echo $donnees['id'];?>" class="btn btn-xs btn-danger">Annuler</a></td><?php
+											          }
+																else {
+																	?><td></td><?php
+																} ?>
+
+
+
+
 		            </tr>
             	<?php
             }
@@ -59,7 +73,7 @@ $res = $bdd->query('SELECT * FROM booking');?>
             $res->closeCursor();
 
             ?>
-
+</form>
 
 
 		        </tbody>

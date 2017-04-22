@@ -19,15 +19,6 @@
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="name">Nom</label>
-  <div class="col-md-4">
-  <input id="Nom" name="Nom" type="text" placeholder="" class="form-control input-md" required="">
-
-  </div>
-</div>
-
-<!-- Text input-->
-<div class="form-group">
   <label class="col-md-4 control-label" for="emailaddress">Section</label>
   <div class="col-md-4">
   <input id="Section" name="Section" type="text" placeholder="" class="form-control input-md" required="">

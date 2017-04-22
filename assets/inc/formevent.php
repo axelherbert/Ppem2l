@@ -10,7 +10,7 @@
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-4 well well-sm">
             <legend>Création d'un événement</legend>
-            <form action="../script/addevent.php" enctype="multipart/form-data" method="post">
+            <form action="assets/inc/addevent.php" enctype="multipart/form-data" method="post">
             <input class="form-control" name="nom" placeholder="Nom" type="text" />
             <input class="form-control" name="adresse" placeholder="Adresse" type="text" />
             <input class="form-control" name="centre" placeholder="Nom du centre" type="text" />

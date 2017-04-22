@@ -27,8 +27,8 @@
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php echo 'Bonjour ' . $_SESSION['prenom']; ?><span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">Mes événements</a></li>
-                    <li><a href="#">Mes réservation</a></li>
+                    <li><a href="myevent.php">Mes événements</a></li>
+                    <li><a href="mybooking.php">Mes réservation</a></li>
                     <li><a href="./account.php">Mon compte</a></li>
                     <li><a href="assets\inc\disconnect.php">Déconnexion</a></li>
                   </ul>

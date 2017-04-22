@@ -6,8 +6,8 @@ $bdd = connectToSQL();
 
 
 $id_to_delete = $_GET['id'];
-$bdd->exec('DELETE FROM goldenBook WHERE id="' . $id_to_delete . '"');
+$bdd->exec('DELETE FROM booking WHERE id="' . $id_to_delete . '"');
 
-header('location: livredor.php');
+header('location: ../../booking.php');
 
 ?>
