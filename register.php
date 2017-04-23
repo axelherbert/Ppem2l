@@ -23,30 +23,27 @@ ini_set('display_errors', true); ?>
         <div class='col-md-3'></div>
         <div class="col-md-6">
             <div class="login-box well">
-                    <form action="">
+                    <form action="assets\inc\add_user.php" method="post">
                         <legend>S'Inscrire</legend>
                         <div class="form-group">
-                            <label for="username-email">E-mail ou pseudo</label>
-                            <input value='' id="username-email" placeholder="E-mail ou pseudo" type="text" class="form-control" />
+                            <label for="username-pseudo">Pseudo</label>
+                            <input value='' id="username-pseudo" placeholder="Pseudo" type="text" class="form-control" name="pseudo"/>
+                        </div>
+												<div class="form-group">
+                            <label for="username-email">E-mail</label>
+                            <input value='' id="username-email" placeholder="E-mail" type="text" class="form-control" name="mail"/>
                         </div>
                         <div class="form-group">
                             <label for="password">Mot de passe</label>
-                            <input id="password" value='' placeholder="Mot de passe" type="text" class="form-control" />
+                            <input id="password" value='' placeholder="Mot de passe" type="password" class="form-control" name="password"/>
+                        </div>
+												<div class="form-group">
+                            <label for="password">Prenom</label>
+                            <input id="password" value='' placeholder="Prenom" type="text" class="form-control" name="prenom"/>
                         </div>
                         <div class="form-group">
                             <label for="password">Nom</label>
-                            <input id="password" value='' placeholder="Nom" type="text" class="form-control" />
-                        </div>
-                        <div class="form-group">
-                            <label for="password">Prenom</label>
-                            <input id="password" value='' placeholder="Prenom" type="text" class="form-control" />
-                        </div>
-                        <div class="form-group">
-                          <label for="exampleInputSexe1">Sexe</label>
-                          <select class="form-control" id="exampleInputSexe1">
-                            <option>Homme</option>
-                            <option>Femme</option>
-                          </select>
+                            <input id="password" value='' placeholder="Nom" type="text" class="form-control" name="nom"/>
                         </div>
                         <div class="form-group">
                             <input type="submit" class="btn btn-success btn-login-submit btn-block m-t-md" value="Inscription" />
