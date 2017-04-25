@@ -17,7 +17,6 @@
       $bdd = connectToSQL();
 
       $reponse = $bdd->query('SELECT * FROM event');
-      // $donnees = $reponse->fetch();
 ?>
 
       <div class="container">

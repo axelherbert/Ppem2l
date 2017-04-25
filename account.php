@@ -1,7 +1,7 @@
 <!DOCTYPE html>
+<?php session_start(); ?>
 <html>
 <?php
-session_start();
 ini_set('display_errors', true); ?>
   <head>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

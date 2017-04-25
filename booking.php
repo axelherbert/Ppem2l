@@ -1,7 +1,7 @@
 <!DOCTYPE html>
+<?php session_start(); ?>
 <html>
 <?php
-session_start();
 ini_set('display_errors', true); ?>
 <link rel="stylesheet" href="assets/css/bootstrap.css">
 <link rel="stylesheet" href="assets/css/panel.css">

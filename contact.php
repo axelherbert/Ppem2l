@@ -1,12 +1,12 @@
-<?php
-session_start();
-ini_set("display_errors",0);error_reporting(0);
-?>
+<!DOCTYPE html>
+<?php session_start(); ?>
 <html>
 <head>
 	<title>Contact</title>
 </head>
 <body>
+	<?php ini_set("display_errors",0);error_reporting(0);
+	?>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="assets/js/bootstrap.js"></script>
