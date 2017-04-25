@@ -6,6 +6,7 @@
 <script src="assets/js/bootstrap.js"></script>
 <link rel="stylesheet" href="assets/css/bootstrap.css">
 <link rel="stylesheet" href="assets/css/home.css">
+<link rel="stylesheet" href="assets/css/coursel.css">
 <?php
 ini_set('display_errors', true); ?>
 
@@ -95,43 +96,51 @@ if (isset($_POST['askConnect'])) {
 			</div>
 		</div>
 	</div>
+</br>
 
 <div class="container">
 		<div class="row">
 				<div class="span12">
 						<div class="well">
-								<div id="myCarousel" class="carousel fdi-Carousel slide">
-
-										<div class="carousel fdi-Carousel slide" id="eventCarousel" data-interval="0">
-												<div class="carousel-inner onebyone-carosel">
-														<div class="item active">
-																<div class="col-md-4">
-																		<a href="#"><img src="assets/images/Tennis.jpg" class="img-responsive center-block"></a>
-																		<div class="text-center">Tennis</div>
-																</div>
-														</div>
-														<div class="item active">
-																<div class="col-md-4">
-																		<a href="#"><img src="assets/images/natation.jpg" class="img-responsive center-block"></a>
-																		<div class="text-center">Natation</div>
-																</div>
-														</div>
-														<div class="item active">
-																<div class="col-md-4">
-																		<a href="#"><img src="assets/images/boxe.jpg" class="img-responsive center-block"></a>
-																		<div class="text-center">Boxe</div>
-																</div>
-														</div>
-														<div class="item active">
-																<div class="col-md-4">
-																		<a href="#"><img src="assets/images/football.jpg" class="img-responsive center-block"></a>
-																		<div class="text-center">Football</div>
-																</div>
-														</div>
-												</div>
-												<a class="left carousel-control" href="#eventCarousel" data-slide="prev"></a>
-												<a class="right carousel-control" href="#eventCarousel" data-slide="next"></a>
-										</div>
+							<div id="my_carousel" class="carousel slide" data-ride="carousel">
+<!-- Bulles -->
+<ol class="carousel-indicators">
+<li data-target="#my_carousel" data-slide-to="0" class="active"></li>
+<li data-target="#my_carousel" data-slide-to="1"></li>
+<li data-target="#my_carousel" data-slide-to="2"></li>
+</ol>
+<!-- Slides -->
+<div class="carousel-inner">
+<!-- Page 1 -->
+<div class="item active">
+<div class="carousel-page">
+<img src="assets/images/Tennis.jpg" class="img-responsive" style="margin:0px auto;" />
+</div>
+<div class="carousel-caption">Tennis</div>
+</div>
+<!-- Page 2 -->
+<div class="item">
+<div class="carousel-page"><img src="assets/images/natation.jpg" class="img-responsive img-rounded"
+style="margin:0px auto;"  /></div>
+<div class="carousel-caption">Natation</div>
+</div>
+<!-- Page 3 -->
+<div class="item">
+<div class="carousel-page">
+<img src="assets/images/boxe.jpg" class="img-responsive img-rounded"
+style="margin:0px auto;max-height:100%;"  />
+</div>
+<div class="carousel-caption">Boxe</div>
+</div>
+</div>
+<!-- Contrôles -->
+<a class="left carousel-control" href="#my_carousel" data-slide="prev">
+<span class=""></span>
+</a>
+<a class="right carousel-control" href="#my_carousel" data-slide="next">
+<span class=""></span>
+</a>
+</div>
 
 								</div>
 						</div>
