@@ -25,16 +25,20 @@ ini_set('display_errors', true); ?>
                 Mon compte <small>Maison des Ligues de Lorraine</small>
     					</h2>
             </div>
+    				<div class="col-sm-4 col-lg-4">
+    					<center><img src="assets/images/logo-m2l.png" alt="Logo" /></center><br>
+    				</div>
           </div>
         </div>
     	</div>
-      <center>
       <?php
-      echo "<h5><strong>Pseudo : </strong>" . $_SESSION['pseudo']. "</h5><br>";
-      echo "<h5><strong>Prenom : </strong>" . $_SESSION['prenom']. "</h5><br>";
-      echo "<h5><strong>Type : </strong>" . $_SESSION['type']. "</h5><br>";
-      echo "<h5><strong>Email : </strong>" . $_SESSION['mail']. "</h5><br>";
+
+
+
+      echo "Pseudo : " . $_SESSION['pseudo']. "<br>";
+      echo "Prenom : " . $_SESSION['prenom']. "<br>";
+      echo "Type : " . $_SESSION['type']. "<br>";
+      echo "Email : " . $_SESSION['mail']. "<br>";
        ?>
-     </center>
   </body>
 </html>
