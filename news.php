@@ -7,7 +7,7 @@ session_start();
 	<title>News</title>
 <link rel="stylesheet" href="assets/css/bootstrap.css">
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/bootstrap.js"></script>
     <script src="assets/js/rss.js"></script>
 
