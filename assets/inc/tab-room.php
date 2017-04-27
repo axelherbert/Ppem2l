@@ -43,13 +43,11 @@ $res = $bdd->query('SELECT * FROM booking');?>
 		        <tbody>
 							<form class="" action="../../index.php" method="get">
 
-
                     <?php
             while ($donnees = $res->fetch())
             {
                 ?>
 		            <tr>
-										<td><?php echo $donnees['id']; ?></td>
 		                <td><?php echo $donnees['Salle']; ?></td>
 		                <td><?php echo $donnees['Nom']; ?></td>
 		                <td><?php echo $donnees['Section']; ?></td>
@@ -59,7 +57,8 @@ $res = $bdd->query('SELECT * FROM booking');?>
 										<?php
 										if (isset($_SESSION['id']))
 										if ($_SESSION['pseudo']==$donnees['Nom']){
-											            ?><td><a href="assets/inc/delete.php?id=<?php echo $donnees['id'];?>" class="btn btn-xs btn-danger">Annuler</a></td><?php
+											            ?><td><a href="assets/inc/delete.php?id=<?php echo $donnees['id'];?>" class="btn btn-xs btn-danger">Annuler</a>
+																		<a href="assets/inc/delete.php?id=<?php echo $donnees['id'];?>" class="btn btn-xs btn-danger">Modifier</a></td><?php
 											          }
 																else {
 																	?><td></td><?php
