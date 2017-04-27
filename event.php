@@ -9,6 +9,7 @@ ini_set('display_errors', true); ?>
 <link rel="stylesheet" href="assets/css/event.css">
 <link rel="stylesheet" href="assets/css/bootstrap.css">
 <link rel="stylesheet" href="assets/css/panel.css">
+<link rel="stylesheet" href="assets/css/footer.css">
   <head>
     <meta charset="utf-8">
     <title>Evénement</title>
@@ -24,8 +25,11 @@ ini_set('display_errors', true); ?>
     						else {
 
     						} ?>
-<footer>
-<?php include "assets/inc/footer.php" ?>
+<footer class="container-fluid text-center bg-lightgray">
+
+<div class="copyrights" style="margin-top:25px;">
+<p>PPE M2L © 2017 <span>Crée par Axel, Antoine, Nicolas, Mathieu et Manon.</span></p>
+</div>
 </footer>
   </body>
 </html>

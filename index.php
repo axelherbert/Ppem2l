@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="assets/css/bootstrap.css">
 <link rel="stylesheet" href="assets/css/home.css">
 <link rel="stylesheet" href="assets/css/coursel.css">
+<link rel="stylesheet" href="assets/css/footer.css">
 <?php
 ini_set('display_errors', true); ?>
 
@@ -108,8 +109,12 @@ style="margin:0px auto;max-height:100%;"  />
 				</div>
 		</div>
 </div>
-<footer>
-<?php include "assets/inc/footer.php" ?>
+<footer class="container-fluid text-center bg-lightgray">
+
+        <div class="copyrights" style="margin-top:25px;">
+            <p>PPE M2L © 2017 <span>Crée par Axel, Antoine, Nicolas, Mathieu et Manon.</span></p>
+        </div>
 </footer>
+
 </body>
 </html>

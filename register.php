@@ -6,10 +6,12 @@ ini_set('display_errors', true); ?>
 <link rel="stylesheet" href="assets/css/bootstrap.css">
 <link rel="stylesheet" href="assets/css/bootstrap-theme.css">
 <link rel="stylesheet" href="assets/css/home.css">
+<link rel="stylesheet" href="assets/css/footer.css">
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/bootstrap.js"></script>
 <script src="assets/js/home.js"></script>
+
 <head>
 	<title>Inscription</title>
 </head>
@@ -59,5 +61,11 @@ ini_set('display_errors', true); ?>
         <div class='col-md-3'></div>
     </div>
 </div>
+<footer class="container-fluid text-center bg-lightgray">
+
+        <div class="copyrights" style="margin-top:25px;">
+            <p>PPE M2L © 2017 <span>Crée par Axel, Antoine, Nicolas, Mathieu et Manon.</span></p>
+        </div>
+</footer>
 </body>
 </html>

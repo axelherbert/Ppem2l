@@ -9,7 +9,8 @@ session_start();
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/bootstrap.js"></script>
-    <script src="assets/js/rss.js"></script>
+<script src="assets/js/rss.js"></script>
+<link rel="stylesheet" href="assets/css/footer.css">
 
     <script>
       jQuery(function($) {
@@ -65,8 +66,11 @@ session_start();
 <h1> Hand</h1>
 <div id="rss-hand"></div>
 
-<footer>
-<?php include "assets/inc/footer.php" ?>
+<footer class="container-fluid text-center bg-lightgray">
+
+        <div class="copyrights" style="margin-top:25px;">
+            <p>PPE M2L © 2017 <span>Crée par Axel, Antoine, Nicolas, Mathieu et Manon.</span></p>
+        </div>
 </footer>
 </body>
 </html>
