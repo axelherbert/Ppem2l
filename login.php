@@ -23,7 +23,7 @@ ini_set('display_errors', true); ?>
 				<div class='col-md-3'></div>
 				<div class="col-md-6">
 					<div class="login-box well">
-						<form method="post" action="index.php">
+						<form method="post" action="logining.php">
 							<legend>Se Connecter</legend>
 							<div class="form-group">
 								<label for="username-email">Pseudo</label>
