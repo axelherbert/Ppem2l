@@ -88,8 +88,7 @@ if (isset($_POST['askConnect'])) {
 			</div>
 			<div class="col-sm-4" style="background-color:#eaeaea; border-style: groove;">
 				<h2>Le mot du Président</h2>
-							Je sais bien que ma manière de parler, fort et cru, est une transgression de cet ordre mielleux.
-				<br />Elle est une ligne d'action autant qu'un état d'esprit ...
+				Fier de proposer une structure proposant depuis 2003, l'acceuil de 6 500 clubs, plus de 525 000 licenciés et près de 50 000 bénévoles.
 				<br /><br />
 			</div>
 		</div>
