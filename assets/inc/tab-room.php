@@ -58,7 +58,7 @@ $res = $bdd->query('SELECT * FROM booking');?>
 										if (isset($_SESSION['id']))
 										if ($_SESSION['pseudo']==$donnees['Nom']){
 											            ?><td><a href="assets/inc/delete.php?id=<?php echo $donnees['id'];?>" class="btn btn-xs btn-danger">Annuler</a>
-																		<a href="assets/inc/delete.php?id=<?php echo $donnees['id'];?>" class="btn btn-xs btn-danger">Modifier</a></td><?php
+																		<a href='update_room.php?id=<?php echo $donnees['id'];?>' class='btn btn-primary btn-xs'>Modifier</a></td><?php
 											          }
 																else {
 																	?><td></td><?php

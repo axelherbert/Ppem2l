@@ -36,6 +36,7 @@ session_start();
 <h1> Hand</h1>
 <div id="rss-hand"></div>
 
+
 <footer>
 <?php include "assets/inc/footer.php" ?>
 </footer>
