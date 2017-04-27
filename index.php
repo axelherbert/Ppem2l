@@ -51,7 +51,7 @@ ini_set('display_errors', true); ?>
 				</div>
 			</div>
 			<div class="col-sm-4" style="background-color:#eaeaea; border-style: groove;">
-				<h2>Le mot du Président</h2>
+				<h3>Le mot du Président</h3>
 				Fier de proposer une structure proposant depuis 2003, l'acceuil de 6 500 clubs, plus de 525 000 licenciés et près de 50 000 bénévoles.
 				<br /><br />
 			</div>
