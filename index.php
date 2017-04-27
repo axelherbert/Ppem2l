@@ -61,13 +61,11 @@ if (isset($_POST['askConnect'])) {
 
 	<div class="jumbotron jumbotron-sm">
     <div class="container">
-      <div class="row">
-        <div class="col-sm-8 col-lg-8">
-          <h2 class="h2">
-            PRESENTATION <small>Maison des Ligues de Lorraine</small>
-					</h2>
-        </div>
-      </div>
+			<center>
+				<div class="row">
+						<h2 class="h2">PRESENTATION</h2>
+				</div>
+			</center>
     </div>
 	</div>
 	<div class="row">
