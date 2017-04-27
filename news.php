@@ -67,10 +67,10 @@ session_start();
 <div id="rss-hand"></div>
 
 <footer class="container-fluid text-center bg-lightgray">
-
-        <div class="copyrights" style="margin-top:25px;">
-            <p>PPE M2L © 2017 <span>Crée par Axel, Antoine, Nicolas, Mathieu et Manon.</span></p>
-        </div>
+<div class="copyrights" style="margin-top:25px;">
+<p>PPE M2L © 2017 <span>Crée par Axel, Antoine, Nicolas, Mathieu et Manon.</span></p>
+</div>
 </footer>
+
 </body>
 </html>
