@@ -110,11 +110,11 @@ style="margin:0px auto;max-height:100%;"  />
 		</div>
 </div>
 <footer class="container-fluid text-center bg-lightgray">
-
-        <div class="copyrights" style="margin-top:25px;">
-            <p>PPE M2L © 2017 <span>Crée par Axel, Antoine, Nicolas, Mathieu et Manon.</span></p>
-        </div>
+<div class="copyrights" style="margin-top:25px;">
+      <p>PPE M2L © 2017 <span>Crée par Axel, Antoine, Nicolas, Mathieu et Manon.</span></p>
+</div>
 </footer>
 
+</div>
 </body>
 </html>
