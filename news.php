@@ -43,10 +43,11 @@ session_start();
 
 	<div class="jumbotron jumbotron-sm">
     <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-lg-12">
-          <h2 class="h2">News</h2>
-        </div>
+			<center>
+				<div class="row">
+						<h2 class="h2">News</h2>
+				</div>
+			</center>
       </div>
     </div>
 	</div>

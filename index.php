@@ -63,7 +63,7 @@ if (isset($_POST['askConnect'])) {
     <div class="container">
 			<center>
 				<div class="row">
-						<h2 class="h2">PRESENTATION</h2>
+						<h2 class="h2">Presentation</h2>
 				</div>
 			</center>
     </div>

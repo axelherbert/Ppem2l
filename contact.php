@@ -19,11 +19,11 @@ include "assets/inc/navbar.php";?>
 
 <div class="jumbotron jumbotron-sm">
     <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-lg-12">
-                <h2 class="h2">
-                  Nous contacter <small>Maison des Ligues de Lorraine</small></h2>
-            </div>
+			<center>
+				<div class="row">
+						<h2 class="h2">Nous contacter</h2>
+				</div>
+			</center>
         </div>
     </div>
 </div>
