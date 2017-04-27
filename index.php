@@ -76,7 +76,7 @@ ini_set('display_errors', true); ?>
 <!-- Page 1 -->
 <div class="item active">
 <div class="carousel-page">
-<img src="assets/images/Tennis.jpg" class="img-responsive" style="margin:0px auto;" />
+<img src="assets/images/tennis2.jpg" class="img-responsive" style="margin:0px auto;" />
 </div>
 <div class="carousel-caption">Tennis</div>
 </div>

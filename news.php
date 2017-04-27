@@ -55,16 +55,110 @@ session_start();
 <div style="clear: both;">
 </div>
 </div>
-<h1> Football</h1>
-<div id="rss-foot"></div>
-<h1> Tennis</h1>
-<div id="rss-tennis"></div>
-<h1> Rugby</h1>
-<div id="rss-rugby"></div>
-<h1> Basket</h1>
-<div id="rss-basket"></div>
-<h1> Hand</h1>
-<div id="rss-hand"></div>
+<div class="row">
+	<div class="container">
+		<div id="presentation">
+			<div class="wrap">
+				<section>
+					<!-- <center><img src="assets/images/logo-m2l.png" alt="Logo" /></center><br> !-->
+					<div class="col-sm-8">
+					<p>
+						<h1>Football</h1>
+						<div id="rss-foot"></div>
+					</p>
+					</div>
+				</section>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<img src="assets/images/football.jpg"></img>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="container">
+		<div id="presentation">
+			<div class="wrap">
+				<section>
+					<!-- <center><img src="assets/images/logo-m2l.png" alt="Logo" /></center><br> !-->
+					<div class="col-sm-8">
+					<p>
+						<h1>Tennis</h1>
+						<div id="rss-tennis"></div>
+					</p>
+					</div>
+				</section>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<img src="assets/images/tennis.jpg"></img>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="container">
+		<div id="presentation">
+			<div class="wrap">
+				<section>
+					<!-- <center><img src="assets/images/logo-m2l.png" alt="Logo" /></center><br> !-->
+					<div class="col-sm-8">
+					<p>
+						<h1>Rugby</h1>
+						<div id="rss-rugby"></div>
+					</p>
+					</div>
+				</section>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<img src="assets/images/rugby.gif"></img>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="container">
+		<div id="presentation">
+			<div class="wrap">
+				<section>
+					<!-- <center><img src="assets/images/logo-m2l.png" alt="Logo" /></center><br> !-->
+					<div class="col-sm-8">
+					<p>
+						<h1>Basket</h1>
+						<div id="rss-basket"></div>
+					</p>
+					</div>
+				</section>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<img src="assets/images/basket.gif"></img>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="container">
+		<div id="presentation">
+			<div class="wrap">
+				<section>
+					<!-- <center><img src="assets/images/logo-m2l.png" alt="Logo" /></center><br> !-->
+					<div class="col-sm-8">
+					<p>
+						<h1>Hand</h1>
+						<div id="rss-hand"></div>
+					</p>
+					</div>
+				</section>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<img src="assets/images/handball.gif"></img>
+		</div>
+	</div>
+</div>
 
 <footer class="container-fluid text-center bg-lightgray">
 <div class="copyrights" style="margin-top:25px;">
