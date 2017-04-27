@@ -19,21 +19,20 @@ ini_set('display_errors', true); ?>
 
     	<div class="jumbotron jumbotron-sm">
         <div class="container">
+        <center>
           <div class="row">
-            <div class="col-sm-8 col-lg-8">
-              <h2 class="h2">
-                Mon compte <small>Maison des Ligues de Lorraine</small>
-    					</h2>
-            </div>
+              <h2 class="h2">Mon compte</h2>
           </div>
+        </center>
         </div>
     	</div>
       <center>
       <?php
-      echo "<h5><strong>Pseudo : </strong>" . $_SESSION['pseudo']. "</h5><br>";
-      echo "<h5><strong>Prenom : </strong>" . $_SESSION['prenom']. "</h5><br>";
-      echo "<h5><strong>Type : </strong>" . $_SESSION['type']. "</h5><br>";
-      echo "<h5><strong>Email : </strong>" . $_SESSION['mail']. "</h5><br>";
+      echo "<h5><u><strong>Pseudo</u> : </strong>" . $_SESSION['pseudo']. "</h5><br>";
+      echo "<h5><u><strong>Email</u> : </strong>" . $_SESSION['mail']. "</h5><br>";
+      echo "<h5><u><strong>Prenom</u> : </strong>" . $_SESSION['prenom']. "</h5><br>";
+      echo "<h5><u><strong>Nom</u> : </strong>" . $_SESSION['nom']. "</h5><br>";
+      echo "<h5><u><strong>Type</u> : </strong>" . $_SESSION['type']. "</h5><br>";
        ?>
      </center>
   </body>
