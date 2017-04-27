@@ -108,6 +108,8 @@ style="margin:0px auto;max-height:100%;"  />
 				</div>
 		</div>
 </div>
+<footer>
 <?php include "assets/inc/footer.php" ?>
+</footer>
 </body>
 </html>

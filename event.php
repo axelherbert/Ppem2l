@@ -24,6 +24,8 @@ ini_set('display_errors', true); ?>
     						else {
 
     						} ?>
-
+<footer>
+<?php include "assets/inc/footer.php" ?>
+</footer>
   </body>
 </html>

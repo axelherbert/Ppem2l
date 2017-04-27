@@ -16,5 +16,8 @@ ini_set('display_errors', true); ?>
 include "assets/inc/navbar.php";
 include "assets/inc/tab-room.php";
 ?>
+<footer>
+<?php include "assets/inc/footer.php" ?>
+</footer>
 </body>
 </html>
