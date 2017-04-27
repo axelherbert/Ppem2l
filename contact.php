@@ -22,7 +22,7 @@ include "assets/inc/navbar.php";?>
         <div class="row">
             <div class="col-sm-12 col-lg-12">
                 <h2 class="h2">
-                  COORDONNEES <small>Maison des Ligues de Lorraine</small></h2>
+                  Nous contacter <small>Maison des Ligues de Lorraine</small></h2>
             </div>
         </div>
     </div>
