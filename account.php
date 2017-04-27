@@ -9,6 +9,7 @@ ini_set('display_errors', true); ?>
     <script src="assets/js/bootstrap.js"></script>
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
     <head>
     	<title>Mon compte</title>
     </head>
@@ -35,5 +36,11 @@ ini_set('display_errors', true); ?>
       echo "<h5><u><strong>Type</u> : </strong>" . $_SESSION['type']. "</h5><br>";
        ?>
      </center>
+     <footer class="container-fluid text-center bg-lightgray">
+
+             <div class="copyrights" style="margin-top:25px;">
+                 <p>PPE M2L © 2017 <span>Crée par Axel, Antoine, Nicolas, Mathieu et Manon.</span></p>
+             </div>
+     </footer>
   </body>
 </html>

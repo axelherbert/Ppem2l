@@ -10,21 +10,51 @@ session_start();
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/bootstrap.js"></script>
 <script src="assets/js/rss.js"></script>
+<link rel="stylesheet" href="assets/css/footer.css">
+
+    <script>
+      jQuery(function($) {
+        $("#rss-foot").rss("http://www.lequipe.fr/rss/actu_rss_Football.xml")
+      })
+    </script>
+      <script>
+      jQuery(function($) {
+        $("#rss-tennis").rss("http://www.lequipe.fr/rss/actu_rss_Tennis.xml")
+      })
+    </script>
+     <script>
+      jQuery(function($) {
+        $("#rss-rugby").rss("http://www.lequipe.fr/rss/actu_rss_Rugby.xml")
+      })
+    </script>
+    <script>
+      jQuery(function($) {
+        $("#rss-basket").rss("http://www.lequipe.fr/rss/actu_rss_Basket.xml")
+      })
+    </script>
+    <script>
+      jQuery(function($) {
+        $("#rss-hand").rss("http://www.lequipe.fr/rss/actu_rss_Hand.xml")
+      })
+    </script>
 
 </head>
 <body>
 		<?php include "assets/inc/navbar.php"; ?>
 
-		<div class="jumbotron jumbotron-sm">
-			<div class="container">
-				<center>
-					<div class="row">
+	<div class="jumbotron jumbotron-sm">
+    <div class="container">
+			<center>
+				<div class="row">
 						<h2 class="h2">News</h2>
-					</div>
-				</center>
-			</div>
-		</div>
-
+				</div>
+			</center>
+      </div>
+    </div>
+	</div>
+<div style="clear: both;">
+</div>
+</div>
 <h1> Football</h1>
 <div id="rss-foot"></div>
 <h1> Tennis</h1>
@@ -36,36 +66,17 @@ session_start();
 <h1> Hand</h1>
 <div id="rss-hand"></div>
 
+<<<<<<< HEAD
 
 <footer>
 <?php include "assets/inc/footer.php" ?>
+=======
+<footer class="container-fluid text-center bg-lightgray">
+<div class="copyrights" style="margin-top:25px;">
+<p>PPE M2L © 2017 <span>Crée par Axel, Antoine, Nicolas, Mathieu et Manon.</span></p>
+</div>
+>>>>>>> origin/master
 </footer>
+
 </body>
-
-<script>
-	jQuery(function($) {
-		$("#rss-foot").rss("http://www.lequipe.fr/rss/actu_rss_Football.xml")
-	})
-</script>
-	<script>
-	jQuery(function($) {
-		$("#rss-tennis").rss("http://www.lequipe.fr/rss/actu_rss_Tennis.xml")
-	})
-</script>
- <script>
-	jQuery(function($) {
-		$("#rss-rugby").rss("http://www.lequipe.fr/rss/actu_rss_Rugby.xml")
-	})
-</script>
-<script>
-	jQuery(function($) {
-		$("#rss-basket").rss("http://www.lequipe.fr/rss/actu_rss_Basket.xml")
-	})
-</script>
-<script>
-	jQuery(function($) {
-		$("#rss-hand").rss("http://www.lequipe.fr/rss/actu_rss_Hand.xml")
-	})
-</script>
-
 </html>
