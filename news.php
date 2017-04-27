@@ -66,16 +66,10 @@ session_start();
 <h1> Hand</h1>
 <div id="rss-hand"></div>
 
-<<<<<<< HEAD
-
-<footer>
-<?php include "assets/inc/footer.php" ?>
-=======
 <footer class="container-fluid text-center bg-lightgray">
 <div class="copyrights" style="margin-top:25px;">
 <p>PPE M2L © 2017 <span>Crée par Axel, Antoine, Nicolas, Mathieu et Manon.</span></p>
 </div>
->>>>>>> origin/master
 </footer>
 
 </body>
