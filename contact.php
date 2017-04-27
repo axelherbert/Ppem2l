@@ -59,6 +59,7 @@ include "assets/inc/navbar.php";?>
         </div>
     </div>
 </div>
+
 <footer>
 <?php include "assets/inc/footer.php" ?>
 </footer>
