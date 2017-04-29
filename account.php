@@ -36,14 +36,9 @@ ini_set('display_errors', true); ?>
     echo "<h5><u><strong>Nom</u> : </strong>" . $_SESSION['nom']. "</h5><br>";
     echo "<h5><u><strong>Type</u> : </strong>" . $_SESSION['type']. "</h5>";
     ?>
-
     <div class="center"><button data-toggle="modal" data-target="#squarespaceModal" class="btn btn-primary center-block">Modifier les informations</button></div>
   </center>
-
-
-
-
-
+  
   <!-- line modal -->
   <div class="modal fade" id="squarespaceModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
     <div class="modal-dialog">
