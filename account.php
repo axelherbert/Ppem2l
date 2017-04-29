@@ -30,8 +30,8 @@ ini_set('display_errors', true); ?>
   </div>
   <center>
     <?php
-    echo "<h5><u><strong>Pseudo</u> : </strong>" . $_SESSION['pseudo']. "</h5><br>";
     echo "<h5><u><strong>Email</u> : </strong>" . $_SESSION['mail']. "</h5><br>";
+    echo "<h5><u><strong>Pseudo</u> : </strong>" . $_SESSION['pseudo']. "</h5><br>";
     echo "<h5><u><strong>Prenom</u> : </strong>" . $_SESSION['prenom']. "</h5><br>";
     echo "<h5><u><strong>Nom</u> : </strong>" . $_SESSION['nom']. "</h5><br>";
     echo "<h5><u><strong>Type</u> : </strong>" . $_SESSION['type']. "</h5>";
