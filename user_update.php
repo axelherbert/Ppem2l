@@ -19,8 +19,6 @@ $_SESSION['pseudo'] = $_POST['pseudo'];
 $_SESSION['prenom'] = $_POST['prenom'];
 $_SESSION['nom'] = $_POST['nom'];
 
-var_dump($_POST);
-
 $req = $bdd->exec('UPDATE users SET mail =' . $mail .',
                                     pseudo =' . $pseudo .',
                                     prenom =' . $prenom .',
