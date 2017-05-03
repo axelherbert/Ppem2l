@@ -33,9 +33,9 @@
 
       	?>
         <div class="col-sm-4">
-            <div class="panel panel-perso">
-                <div class="panel-heading-perso"><h2><?php echo $nom .'</h2> ('. date_format($date, 'd/m/y').') - '. $sport ?></a></h2></div>
-                <div class="panel-body-perso nopadding">
+            <div class="panel panel">
+                <div class="panel-heading"><h2><?php echo $nom .'</h2> ('. date_format($date, 'd/m/y').') - '. $sport ?></a></h2> Publier par <?php echo $donnees['users'];?></div>
+                <div class="panel-body nopadding">
                   <img src="assets/images/football.jpg" alt="event image" class="img-responsive" />
                     <div class="row nopadding">
                         <div class="col-sm-6 nopadding">
@@ -50,10 +50,19 @@
                         </div>
                     </div>
                 </div>
-                <div class="panel-footer-perso panel-perso">
+                <div class="panel-footer panel">
                     <p><?php echo $description; ?>
                     </p>
                     <a href="#" class="btn btn-success">Contacter</a>
+                    <?php
+                    if (isset($_SESSION['id']))
+                    if ($_SESSION['pseudo']==$donnees['users']){
+                                  ?><a href='update_event.php?id=<?php echo $donnees['id'];?>' class='btn btn-primary'>Modifier</a>
+                                  <a href="assets/inc/delete_event.php?id=<?php echo $donnees['id'];?>" class="btn btn-danger">Annuler</a><?php
+                                }
+                                else {
+                                  ?><td></td><?php
+                                } ?>
                 </div>
             </div>
         </div>

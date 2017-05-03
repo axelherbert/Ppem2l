@@ -22,7 +22,7 @@ ini_set('display_errors', true);?>
 
       $bdd = connectToSQL();
 
-      $reponse = $bdd->query('SELECT * FROM `event` WHERE `users_id` = "'.$_SESSION['id'].'"');
+      $reponse = $bdd->query('SELECT * FROM `event` WHERE `users` = "'.$_SESSION['pseudo'].'"');
       // $donnees = $reponse->fetch();
 ?>
     <div class="container">
@@ -40,7 +40,7 @@ ini_set('display_errors', true);?>
       ?>
       <div class="col-sm-4">
           <div class="panel panel-perso">
-              <div class="panel-heading-perso"><h2><?php echo $nom .'</h2> ('. date_format($date, 'd/m/y').') - '. $sport ?></a></h2></div>
+              <div class="panel-heading-perso"><h2><?php echo $nom .'</h2> ('. date_format($date, 'd/m/y').') - '. $sport ?></a></h2> Publier par <?php echo $donnees['users'];?></div>
               <div class="panel-body-perso nopadding">
                 <img src="assets/images/football.jpg" alt="event image" class="img-responsive" />
                   <div class="row nopadding">
@@ -60,6 +60,8 @@ ini_set('display_errors', true);?>
                   <p><?php echo $description; ?>
                   </p>
                   <a href="#" class="btn btn-success">Contacter</a>
+                  <a href='update_event.php?id=<?php echo $donnees['id'];?>' class='btn btn-primary'>Modifier</a>
+                  <a href="assets/inc/delete_event.php?id=<?php echo $donnees['id'];?>" class="btn btn-danger">Annuler</a>
               </div>
           </div>
       </div>
