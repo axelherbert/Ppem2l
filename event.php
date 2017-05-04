@@ -21,7 +21,7 @@ ini_set('display_errors', true); ?>
     include 'assets/inc/event.php';
 
   if (isset($_SESSION['id'])){
-    	            ?><a href="addevent.php">Créer</a><?php
+    	            ?><center><a href="addevent.php" class="btn btn-primary">Éditer un événement</a></center><?php
     	          }
     						else {
 

@@ -10,7 +10,7 @@ ini_set('display_errors', true); ?>
   <link rel="stylesheet" href="assets/css/bootstrap.css">
   <link rel="stylesheet" href="assets/css/home.css">
   <link rel="stylesheet" href="assets/css/footer.css">
-  <link rel="stylesheet" href="account.css">
+  <link rel="stylesheet" href="assets/css/account.css">
   <head>
     <title>Mon compte</title>
   </head>
@@ -38,13 +38,13 @@ ini_set('display_errors', true); ?>
     ?>
     <div class="center"><button data-toggle="modal" data-target="#squarespaceModal" class="btn btn-primary center-block">Modifier les informations</button></div>
   </center>
-  
+
   <!-- line modal -->
   <div class="modal fade" id="squarespaceModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Fermer</span></button>
           <h3 class="modal-title" id="lineModalLabel">Mes informations</h3>
         </div>
         <div class="modal-body">
@@ -67,14 +67,14 @@ ini_set('display_errors', true); ?>
               <label for="exampleInputEmail1">Nom</label>
               <input value="<?php echo $_SESSION['nom']; ?>" type="text" class="form-control" id="exampleInputEmail1" placeholder="Entrer nom" name="nom">
             </div>
-            <button type="submit" class="btn btn-default">Submit</button>
+            <button type="submit" class="btn btn-default">Envoyer</button>
           </form>
 
         </div>
         <div class="modal-footer">
           <div class="btn-group btn-group-justified" role="group" aria-label="group button">
             <div class="btn-group" role="group">
-              <button type="button" class="btn btn-default" data-dismiss="modal"  role="button">Close</button>
+              <button type="button" class="btn btn-default" data-dismiss="modal"  role="button">Fermer</button>
             </div>
           </div>
         </div>
