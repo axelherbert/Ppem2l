@@ -53,7 +53,6 @@
                 <div class="panel-footer panel">
                     <p><?php echo $description; ?>
                     </p>
-                    <a href="#" class="btn btn-success">Contacter</a>
                     <?php
                     if (isset($_SESSION['id']))
                     if ($_SESSION['pseudo']==$donnees['users']){

@@ -46,7 +46,7 @@ ini_set('display_errors', true);?>
                 include "assets/inc/connect.php";
 
                 $bdd = connectToSQL();
-                $res = $bdd->query("SELECT * FROM booking WHERE Nom = 'ncl' ORDER BY Nom ASC");
+                $res = $bdd->query('SELECT * FROM booking WHERE Nom = "'.$_SESSION['pseudo'].'" ORDER BY Nom ASC');
                 while ($donnees = $res->fetch())
                 {
                     ?>
@@ -58,6 +58,15 @@ ini_set('display_errors', true);?>
                         <td class="status"><?php echo $donnees['Date']; ?></td>
                         <td><?php echo $donnees['Debut']; ?></td>
                         <td><?php echo $donnees['Fin']; ?></td>
+                        <?php
+                        if (isset($_SESSION['id']))
+                        if ($_SESSION['pseudo']==$donnees['Nom']){
+                                      ?><td><a href="assets/inc/delete.php?id=<?php echo $donnees['id'];?>" class="btn btn-xs btn-danger">Annuler</a>
+                                        <a href='update_room.php?id=<?php echo $donnees['id'];?>' class='btn btn-primary btn-xs'>Modifier</a></td><?php
+                                    }
+                                    else {
+                                      ?><td></td><?php
+                                    } ?>
                         <td></td>
 
                     </tr>

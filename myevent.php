@@ -5,7 +5,7 @@
 <script src="assets/js/bootstrap.js"></script>
 <link rel="stylesheet" href="assets/css/event.css">
 <link rel="stylesheet" href="assets/css/bootstrap.css">
-<link rel="stylesheet" href="assets/css/panel.css">
+
 <?php
 session_start();
 ini_set('display_errors', true);?>
@@ -59,7 +59,6 @@ ini_set('display_errors', true);?>
               <div class="panel-footer-perso panel-perso">
                   <p><?php echo $description; ?>
                   </p>
-                  <a href="#" class="btn btn-success">Contacter</a>
                   <a href='update_event.php?id=<?php echo $donnees['id'];?>' class='btn btn-primary'>Modifier</a>
                   <a href="assets/inc/delete_event.php?id=<?php echo $donnees['id'];?>" class="btn btn-danger">Annuler</a>
               </div>
